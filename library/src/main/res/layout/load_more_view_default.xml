@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.dface.widget.recyclerview.DefaultLoadMoreView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:gravity="center">
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        tools:visibility="visible"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        />
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#777777"
+        android:textSize="16dp"
+        android:visibility="gone"
+        tools:text="没有更多动态了"
+        tools:visibility="visible"
+        />
+</cn.dface.widget.recyclerview.DefaultLoadMoreView>
