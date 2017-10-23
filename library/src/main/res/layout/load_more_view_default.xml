@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<cn.dface.widget.recyclerview.DefaultLoadMoreView xmlns:android="http://schemas.android.com/apk/res/android"
+<cn.okayj.axrecyclerview.DefaultLoadMoreView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="horizontal"
     android:layout_width="match_parent"
@@ -13,7 +13,6 @@
         android:layout_gravity="center"
         android:visibility="gone"
         tools:visibility="visible"
-        style="@style/Widget.AppCompat.ProgressBar"
         android:layout_width="35dp"
         android:layout_height="35dp"
         />
@@ -30,4 +29,4 @@
         tools:text="没有更多动态了"
         tools:visibility="visible"
         />
-</cn.dface.widget.recyclerview.DefaultLoadMoreView>
+</cn.okayj.axrecyclerview.DefaultLoadMoreView>
